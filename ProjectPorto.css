@@ -1,0 +1,242 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  margin: 0px;
+  color: #d1d1d1;
+  font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
+  background-color: #0e2a47;
+}
+
+.Container {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1011%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(14%2c 42%2c 71%2c 1)'%3e%3c/rect%3e%3crect width='328.72' height='328.72' clip-path='url(%26quot%3b%23SvgjsClipPath1012%26quot%3b)' x='839.01' y='381.39' fill='url(%23SvgjsPattern1013)' transform='rotate(285.93%2c 1003.37%2c 545.75)'%3e%3c/rect%3e%3crect width='132' height='132' clip-path='url(%26quot%3b%23SvgjsClipPath1014%26quot%3b)' x='97.85' y='331.23' fill='url(%23SvgjsPattern1015)' transform='rotate(155.16%2c 163.85%2c 397.23)'%3e%3c/rect%3e%3crect width='179.04' height='179.04' clip-path='url(%26quot%3b%23SvgjsClipPath1016%26quot%3b)' x='155.75' y='266.78' fill='url(%23SvgjsPattern1017)' transform='rotate(276.88%2c 245.27%2c 356.3)'%3e%3c/rect%3e%3cpath d='M645.65 354.43a5.6 5.6 0 1 0 9.06 6.59 5.6 5.6 0 1 0-9.06-6.59zM658.59 363.85a5.6 5.6 0 1 0 9.05 6.59 5.6 5.6 0 1 0-9.05-6.59zM671.52 373.27a5.6 5.6 0 1 0 9.05 6.59 5.6 5.6 0 1 0-9.05-6.59zM684.45 382.69a5.6 5.6 0 1 0 9.05 6.59 5.6 5.6 0 1 0-9.05-6.59zM610.37 348.52a5.6 5.6 0 1 0 9.05 6.59 5.6 5.6 0 1 0-9.05-6.59zM623.3 357.94a5.6 5.6 0 1 0 9.05 6.6 5.6 5.6 0 1 0-9.05-6.6zM636.23 367.36a5.6 5.6 0 1 0 9.06 6.6 5.6 5.6 0 1 0-9.06-6.6zM649.17 376.78a5.6 5.6 0 1 0 9.05 6.6 5.6 5.6 0 1 0-9.05-6.6z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M343.4 218.3L356.2 218.73 358.59 231.32 371.39 231.75 373.78 244.33 386.58 244.76 388.97 257.34M338.2 224.38L351 224.81 353.39 237.39 366.19 237.82 368.57 250.4 381.37 250.84 383.76 263.42' stroke='%23d3b714' stroke-width='2.81' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3cpath d='M480.37 246.86a5.6 5.6 0 1 0-3.56-10.62 5.6 5.6 0 1 0 3.56 10.62zM475.29 231.68a5.6 5.6 0 1 0-3.55-10.62 5.6 5.6 0 1 0 3.55 10.62zM470.22 216.51a5.6 5.6 0 1 0-3.55-10.62 5.6 5.6 0 1 0 3.55 10.62zM465.14 201.33a5.6 5.6 0 1 0-3.55-10.62 5.6 5.6 0 1 0 3.55 10.62zM505.69 272.13a5.6 5.6 0 1 0-3.55-10.62 5.6 5.6 0 1 0 3.55 10.62zM500.61 256.96a5.6 5.6 0 1 0-3.55-10.62 5.6 5.6 0 1 0 3.55 10.62zM495.54 241.78a5.6 5.6 0 1 0-3.55-10.62 5.6 5.6 0 1 0 3.55 10.62zM490.47 226.61a5.6 5.6 0 1 0-3.56-10.62 5.6 5.6 0 1 0 3.56 10.62zM531.01 297.4a5.6 5.6 0 1 0-3.55-10.62 5.6 5.6 0 1 0 3.55 10.62zM525.94 282.23a5.6 5.6 0 1 0-3.55-10.62 5.6 5.6 0 1 0 3.55 10.62zM520.86 267.06a5.6 5.6 0 1 0-3.55-10.63 5.6 5.6 0 1 0 3.55 10.63zM515.79 251.88a5.6 5.6 0 1 0-3.55-10.62 5.6 5.6 0 1 0 3.55 10.62z' stroke='%23e73635' stroke-width='1' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3cpath d='M594.93 469.01 L560.96 471.8L554.5511808378499 447.0111808378499z' stroke='%23d3b714' stroke-width='2.53'%3e%3c/path%3e%3ccircle r='55.08237208154825' cx='1211.78' cy='177.76' fill='%23e73635'%3e%3c/circle%3e%3crect width='174.24' height='174.24' clip-path='url(%26quot%3b%23SvgjsClipPath1018%26quot%3b)' x='965.37' y='-5.28' fill='url(%23SvgjsPattern1019)' transform='rotate(300.09%2c 1052.49%2c 81.84)'%3e%3c/rect%3e%3cpath d='M820.58 115.84L822.73 128.46 810.88 133.33 813.03 145.96 801.19 150.83 803.34 163.45 791.5 168.32M813.58 111.96L815.73 124.59 803.88 129.46 806.04 142.08 794.19 146.95 796.34 159.57 784.5 164.44M806.58 108.08L808.73 120.71 796.89 125.58 799.04 138.2 787.19 143.07 789.34 155.7 777.5 160.57' stroke='%23e73635' stroke-width='2.65' stroke-dasharray='2%2c 2'%3e%3c/path%3e%3cpath d='M999.6099999999999 312.68 L998.6899999999999 137.94L1065.9479907722207 158.51200922777923z' stroke='%23e73635' stroke-width='1.65' stroke-dasharray='3%2c 3'%3e%3c/path%3e%3crect width='60' height='60' clip-path='url(%26quot%3b%23SvgjsClipPath1020%26quot%3b)' x='780.45' y='504.57' fill='url(%23SvgjsPattern1021)' transform='rotate(187.58%2c 810.45%2c 534.57)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1011'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='328.72' height='11.74' patternUnits='userSpaceOnUse' id='SvgjsPattern1013'%3e%3crect width='328.72' height='5.87' x='0' y='0' fill='%23037b0b'%3e%3c/rect%3e%3crect width='328.72' height='5.87' x='0' y='5.87' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1012'%3e%3ccircle r='82.18' cx='1003.37' cy='545.75'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='132' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1015'%3e%3crect width='132' height='3' x='0' y='0' fill='%23d3b714'%3e%3c/rect%3e%3crect width='132' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1014'%3e%3ccircle r='33' cx='163.85' cy='397.23'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='179.04' height='7.46' patternUnits='userSpaceOnUse' id='SvgjsPattern1017'%3e%3crect width='179.04' height='3.73' x='0' y='0' fill='%23e73635'%3e%3c/rect%3e%3crect width='179.04' height='3.73' x='0' y='3.73' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1016'%3e%3ccircle r='44.76' cx='245.27' cy='356.3'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='7.26' height='7.26' patternUnits='userSpaceOnUse' id='SvgjsPattern1019'%3e%3cpath d='M0 7.26L3.63 0L7.26 7.26' stroke='%23e73635' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1018'%3e%3ccircle r='43.56' cx='1052.49' cy='81.84'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1021'%3e%3cpath d='M0 6L3 0L6 6' stroke='%23037b0b' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1020'%3e%3ccircle r='15' cx='810.45' cy='534.57'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+  height: 615px;
+  background-size: cover;
+  padding: 0px 30px;
+}
+
+.JumboTronNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.JumboTronWelcom {
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 200px 30px 200px;
+  border: 1px solid white;
+  border-style: dashed;
+}
+
+.card1 {
+  width: 250px;
+  height: 100px;
+  opacity: 0.4;
+  filter: alpha(opacity=40)
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #00000015;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(250, 250, 250) 0.2em dashed;
+  margin-bottom: -100px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.card1:hover {
+  border: #006fff 0.2em solid;
+}
+
+.experienceListContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 200px 30px 200px;
+}
+/* button Dowload CV */
+button {
+  background: #fbca1f;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+  user-select: none;
+}
+
+button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+/* section 3 */
+
+.ContainerProject {
+  display: flex;
+  height: 900px;
+}
+
+.Projects {
+  height: 700px;
+  width: 350px;
+  padding: 0px 200px 30px 200px;
+}
+
+.cssbuttons-io-button {
+  background: #a370f0;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  -webkit-box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  right: 0.3em;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  color: #fbca1f;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  -webkit-transform: translateX(0.1em);
+  -ms-transform: translateX(0.1em);
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+.card {
+  cursor: pointer;
+  width: 250px;
+  height: 314px;
+  background: #ff5da2;
+  border-radius: 5px;
+  border: 1px solid #7b52b9;
+  transition: all 0.2s;
+  box-shadow: 12px 12px 2px 1px #7b52b9;
+}
+
+.card:hover {
+  box-shadow: -12px 12px 2px -1px #7b52b9;
+}
+
+/* Section-3 */
+
+.containers3 {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1096%26quot%3b)' fill='none'%3e%3cpath d='M595.9629558029912 464.99938909023547L587.3900757800654 342.4014930235406 464.7921797133705 350.97437304646644 473.36505973629636 473.5722691131613z' fill='rgba(236%2c 125%2c 116%2c 0.17)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1212.8214647561583 95.03981120051807L1226.321249591348 204.98673560142032 1336.2681739922502 191.48695076623062 1322.7683891570605 81.54002636532837z' fill='rgba(236%2c 125%2c 116%2c 0.17)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M195.5855531921314 457.2051435952477L156.84829942675003 344.70398983853846 44.34714567004079 383.4412436039198 83.08439943542217 495.9423973606291z' fill='rgba(236%2c 125%2c 116%2c 0.17)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M172.33633588980084 597.9990896163822L243.17910025662076 524.6392596018178 169.81927024205638 453.7964952349979 98.97650587523644 527.1563252495623z' fill='rgba(236%2c 125%2c 116%2c 0.17)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M664.7549027842338 571.1339870989793L726.5615958707431 626.7849835187475 779.1347439571407 506.24944567909955z' fill='rgba(236%2c 125%2c 116%2c 0.17)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1143.38 392.72 a136.55 136.55 0 1 0 273.1 0 a136.55 136.55 0 1 0 -273.1 0z' fill='rgba(236%2c 125%2c 116%2c 0.17)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M469.7977630103475 297.172887868048L579.7435150718126 308.8346008502146 541.9797406264311 219.86872348062818z' fill='rgba(236%2c 125%2c 116%2c 0.17)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M837.5753435652211 438.0949940725584L744.0760442005941 466.6805985832131 866.1609480758759 531.5942934371855z' fill='rgba(236%2c 125%2c 116%2c 0.17)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1096'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  height: 400px;
+  background-size: cover;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 200px 30px 200px;
+}
+
+.container {
+  width: 420px;
+  background-color: #ddd;
+  border-radius: 25px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 25px;
+}
+
+.html {
+  width: 90%;
+  background-color: #04aa6d;
+} /* Green */
+.css {
+  width: 80%;
+  background-color: #2196f3;
+} /* Blue */
+.js {
+  width: 65%;
+  background-color: #f44336;
+} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+.html1 {
+  width: 80%;
+  background-color: #04aa6d;
+} /* Green */
+.css1 {
+  width: 85%;
+  background-color: #2196f3;
+} /* Blue */
+.js1 {
+  width: 70%;
+  background-color: #f44336;
+} /* Red */
+.php1 {width: 80%; background-color: #808080;} /* Dark Grey */
+
+
+
